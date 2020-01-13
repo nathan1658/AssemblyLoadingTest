@@ -34,9 +34,17 @@ namespace AssemblyLoadingTest
             //Invoker dll:
             var invokerDlls = allDlls.Where(x => x.Name.Contains(x.Directory.Name)).ToList();
 
+
+                    
+
+
             List<IMyInterface> invokerList = new List<IMyInterface>();
+            
+            List<MarshalByRefObject> appDomainList = new List<MarshalByRefObject>();
 
 
+
+            //If use LoadFile, this will be triggered.
             AppDomain.CurrentDomain.AssemblyResolve += (s, e) =>
             {
                 Console.WriteLine($"Assembly Resolving from {e.RequestingAssembly.FullName}, looking for {e.Name}.");
@@ -48,12 +56,17 @@ namespace AssemblyLoadingTest
 
             foreach (var dll in invokerDlls)
             {
+
+                //Create with new AppDomain:
+                helperDomain<IMyInterface> domain = new helperDomain<IMyInterface>(dll.FullName, dll.Name);
+                Console.WriteLine(domain.InstancedObject.GetSecretString());
+
                 var assembly = Assembly.LoadFile(dll.FullName);
                 Type type = assembly.GetExportedTypes().First();
 
                 var instanceOfMyType = Activator.CreateInstance(type) as IMyInterface;
                 Console.WriteLine(instanceOfMyType.GetSecretString());
-                
+
             }
 
             Console.ReadLine();

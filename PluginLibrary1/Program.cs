@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace PluginLibrary1
 {
-    public class PluginLibrary1Invoker : IMyInterface
+    public class PluginLibrary1Invoker : MarshalByRefObject, IMyInterface
     {
         public string GetSecretString()
         {
