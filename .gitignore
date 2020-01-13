@@ -1,2 +1,7 @@
 .vs/
+AssemblyLoadingTest/bin/
 AssemblyLoadingTest/obj/
+PluginLibrary1/bin/
+PluginLibrary1/obj/
+PluginLibrary2/bin/
+PluginLibrary2/obj/
