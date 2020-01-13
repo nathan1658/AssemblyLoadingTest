@@ -1,0 +1,13 @@
+c:\users\pooik\source\repos\AssemblyLoadingTest\PluginLibrary2\bin\Debug\PluginLibrary2.dll.config
+c:\users\pooik\source\repos\AssemblyLoadingTest\PluginLibrary2\bin\Debug\PluginLibrary2.dll
+c:\users\pooik\source\repos\AssemblyLoadingTest\PluginLibrary2\bin\Debug\PluginLibrary2.pdb
+c:\users\pooik\source\repos\AssemblyLoadingTest\PluginLibrary2\bin\Debug\AssemblyLoadingTest.exe
+c:\users\pooik\source\repos\AssemblyLoadingTest\PluginLibrary2\bin\Debug\ExternalLibrary.dll
+c:\users\pooik\source\repos\AssemblyLoadingTest\PluginLibrary2\bin\Debug\AssemblyLoadingTest.pdb
+c:\users\pooik\source\repos\AssemblyLoadingTest\PluginLibrary2\bin\Debug\AssemblyLoadingTest.exe.config
+c:\users\pooik\source\repos\AssemblyLoadingTest\PluginLibrary2\bin\Debug\ExternalLibrary.pdb
+c:\users\pooik\source\repos\AssemblyLoadingTest\PluginLibrary2\obj\Debug\PluginLibrary2.csprojAssemblyReference.cache
+c:\users\pooik\source\repos\AssemblyLoadingTest\PluginLibrary2\obj\Debug\PluginLibrary2.csproj.CoreCompileInputs.cache
+c:\users\pooik\source\repos\AssemblyLoadingTest\PluginLibrary2\obj\Debug\PluginLibrary2.csproj.CopyComplete
+c:\users\pooik\source\repos\AssemblyLoadingTest\PluginLibrary2\obj\Debug\PluginLibrary2.dll
+c:\users\pooik\source\repos\AssemblyLoadingTest\PluginLibrary2\obj\Debug\PluginLibrary2.pdb

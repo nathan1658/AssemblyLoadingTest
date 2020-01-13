@@ -1,0 +1,6 @@
+c:\users\pooik\source\repos\AssemblyLoadingTest\ExternalLibrary\bin\Debug\ExternalLibrary.dll
+c:\users\pooik\source\repos\AssemblyLoadingTest\ExternalLibrary\bin\Debug\ExternalLibrary.pdb
+c:\users\pooik\source\repos\AssemblyLoadingTest\ExternalLibrary\obj\Debug\ExternalLibrary.csprojAssemblyReference.cache
+c:\users\pooik\source\repos\AssemblyLoadingTest\ExternalLibrary\obj\Debug\ExternalLibrary.csproj.CoreCompileInputs.cache
+c:\users\pooik\source\repos\AssemblyLoadingTest\ExternalLibrary\obj\Debug\ExternalLibrary.dll
+c:\users\pooik\source\repos\AssemblyLoadingTest\ExternalLibrary\obj\Debug\ExternalLibrary.pdb
